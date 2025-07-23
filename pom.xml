@@ -31,6 +31,17 @@
             <version>7.11.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>5.5.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20250517</version>
+        </dependency>
     </dependencies>
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
